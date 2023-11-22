@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='hero-container'>
       <div className="hero-content">
         <div className="hero-text">
-           <h1>WE HELP <span>NFT </span><>&#x1F9E0;</><br />PROJECTS LAUNCH</h1>
+           <h1>WE HELP <span>NFT </span><>&#x1F9E0;</><br />PROJECTS LAUNCH.</h1>
         </div>
         <div className="hero-info">
             <p><span className='hero-icon-color'><TbWorld /></span> <span className='hero-slash-color'>/</span> BASED IN AUSTRIA<br /> & WORKING WORLDWIDE</p>
