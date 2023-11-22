@@ -10,6 +10,7 @@ body{
   font-family: Arial;
   color: #e7e5e5;
   background-color: #000000;
+  font-size: 16px;
 }
 
 /*======= NAVBAR =========*/
@@ -160,7 +161,7 @@ body{
   text-align: center;
   border-left: 1px solid gray;
   border-right: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-bottom: none;
 }
 .hero-text h1{
   font-size: 140px;
@@ -176,9 +177,15 @@ body{
 .hero-info{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: none;
+  border-right: none;
+  width: 100vw;
 }
+
 
 .hero-icon-color{
   color: #00ff59;
