@@ -3,8 +3,8 @@ import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
-  const [showNav, setShowNav] = useState(false);
-  const [isSticky, setIsSticky] = useState(false);
+  const [showNav, setShowNav] = useState<boolean>(false);
+  const [isSticky, setIsSticky] = useState<boolean>(false);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
