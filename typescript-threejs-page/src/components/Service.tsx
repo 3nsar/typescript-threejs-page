@@ -29,7 +29,7 @@ const Service = () => {
                   <h1>CONTRACT</h1>
                   <p>If you're starting a project, finding developers you can trust and have a proven track record can be very difficult. Our team has worked extremely hard since we opened our doors to become the premier brand we are today.
                      Feel free to touch base with us and see for yourself why so many choose Nftdevs.</p>
-                  <img src={trippy2} alt="pic" height="150px"/>
+                  <img src={trippy2} alt="pic" height="130px"/>
                 </div>
                 <div className="service-parts-card">
                 <p><span className='color-green'>S </span><span className='color-pink'>/ </span><span className='color-white'>3</span></p>
@@ -37,7 +37,7 @@ const Service = () => {
                   <h1>REBUILD</h1>
                   <p>If for any reason we do find a high risk issue in the contract close to your launch, we can assess the situation and offer a full rebuild in a timely manner. We have saved several projects from their mints failing,
                      and it's a service we have become very well known for in the nft community.</p>
-                  <img src={trippy1} alt="pic" height="150px"/>
+                  <img src={trippy1} alt="pic" height="130px"/>
                 </div>
               </div>
           </div>

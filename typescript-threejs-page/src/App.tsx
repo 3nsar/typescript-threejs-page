@@ -4,7 +4,8 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Service from './components/Service'
-//VERWENDE Link STATT li !!!!
+import Partners from './components/Partners'
+
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Hero/>
       <About/>
       <Service/>
+      <Partners/>
     </div>
   )
 }
