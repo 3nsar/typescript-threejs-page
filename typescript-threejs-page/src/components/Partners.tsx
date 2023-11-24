@@ -13,7 +13,7 @@ const Partners = () => {
             <div className="partner-card-1">
               <div className="marquee-w">
                <div className="marquee">
-                <span>NEWERAMONKEY NEWERAMONKEY NEWERAMONKEY NEWERAMONKEY</span>
+                <span>NEWERAMONKEY NEWERAMONKEY NEWERAMONKEY NEWERAMONKEY NEWERAMONKEY</span>
                </div>
               </div>
             </div>
@@ -21,7 +21,7 @@ const Partners = () => {
             <div className="partner-card-2">
              <div className="marquee-w">
                <div className="marquee">
-                <span>WHITEHYPE WHITEHYPE WHITEHYPE WHITEHYPE</span>
+                <span>WHITEHYPE WHITEHYPE WHITEHYPE WHITEHYPE WHITEHYPE</span>
                </div>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Partners = () => {
             <div className="partner-card-3">
               <div className="marquee-w">
                 <div className="marquee">
-                    <span>ROBOAPE ROBOAPE ROBOAPE ROBOAPE</span>
+                    <span>ROBOAPE ROBOAPE ROBOAPE ROBOAPE ROBOAPE</span>
                 </div>
                </div>
             </div>

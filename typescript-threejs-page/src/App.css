@@ -370,8 +370,12 @@ body{
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(./images/nftmonkey.jpg);
-  box-shadow: 4px 4px 10px #ff00e6;
   border-radius: 20px;
+}
+
+.partner-card-1:hover{
+  box-shadow: 4px 4px 10px #ff00e6;
+  transition: 0.4s ease;
 }
 
 .partner-card-2{
@@ -381,9 +385,13 @@ body{
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(./images/white-nft.jpg);
-  box-shadow: 4px 4px 10px #ff00e6;
   border-radius: 20px;
+}
 
+.partner-card-2:hover{
+  box-shadow: 4px 4px 10px #ff00e6;
+  transition: 0.4s all;
+  
 }
 
 .partner-card-3{
@@ -393,10 +401,14 @@ body{
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(./images/monkey-laser.jpg);
-  box-shadow: 4px 4px 10px #ff00e6;
   border-radius: 20px;
   margin-bottom: 25vh;
+}
 
+.partner-card-3:hover{
+  box-shadow: 4px 4px 10px #ff00e6;
+  transition: 0.4s all;
+  
 }
 
 .marquee-w {
@@ -440,6 +452,9 @@ body{
   animation: marquee 20s  infinite;
 }
 
+.marquee span:hover{
+  animation-play-state: paused;
+}
 
 @keyframes marquee {
   0% {
