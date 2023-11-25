@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Service from './components/Service'
 import Partners from './components/Partners'
+import Previous from './components/Previous'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <About/>
       <Service/>
       <Partners/>
+      <Previous/>
     </div>
   )
 }
