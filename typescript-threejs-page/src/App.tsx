@@ -8,10 +8,11 @@ import Partners from './components/Partners'
 import Previous from './components/Previous'
 
 
+
 const App = () => {
   return (
     <div className='App'>
-      <Navbar/>
+     <Navbar/>
       <Hero/>
       <About/>
       <Service/>

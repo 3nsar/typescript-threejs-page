@@ -1,53 +1,69 @@
-import React from 'react';
-import { MdDoubleArrow } from 'react-icons/md';
-import nft from '../images/white-nft.jpg';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React from 'react'
+import nft from "../images/nftmonkey.jpg"
+import nft2 from "../images/white-nft.jpg"
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+// import required modules
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 const Previous = () => {
-  const clients = [
-    { id: 1, image: nft, name: 'Croco' },
-    { id: 2, image: nft, name: 'TToco' },
-    { id: 3, image: nft, name: 'QRSTV' },
-    { id: 4, image: nft, name: 'JJOK' },
-  ];
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-  };
-
   return (
-    <div className="previous-container">
-      <div className="previous-content">
-        <div className="previous-title">
-          <h1>
-            <span className="color-green">
-              <MdDoubleArrow />
-            </span>
-            PREVIOUS CLIENTS
-          </h1>
-        </div>
+    <>
+        <Swiper
+        effect={'coverflow'}
+        loop={true}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 15,
+          stretch: 0,
+          depth: 500,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        navigation={true}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src={nft} alt="Slide 1" />
+          <p>NEO</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={nft} alt="Slide 2" />
+          <p>NEO</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={nft2} alt="Slide 3" />
+          <p>NEO</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={nft} alt="Slide 4" />
+          <p>NEO</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={nft} alt="Slide 5" />
+          <p>NEO</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={nft} alt="Slide 6" />
+          <p>NEO</p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={nft} alt="Slide 7" />
+          <p>NEO</p>
+        </SwiperSlide>
+      </Swiper>
+    </>
+  )
+}
 
-        <div className="clients-container">
-        <Slider {...settings}>
-            {clients.map((item) => (
-              <div className="clients-content" key={item.id}>
-                <div className="clients-card">
-                  <img src={item.image} alt="pic" />
-                  <p>{item.name}</p>
-                </div>
-              </div>
-            ))}
-        </Slider>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Previous;
+export default Previous

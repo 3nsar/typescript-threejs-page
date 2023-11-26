@@ -349,7 +349,6 @@ body{
   border-left: 1px solid gray;
   border-right: 1px solid gray;
   border-bottom: 1px solid gray;
-  min-height: 50vh;
 }
 
 .partners-title{
@@ -466,4 +465,45 @@ body{
   100% {
       transform: translate(0, 0);
   }
+} 
+
+/*========== PREVIOUS =================*/
+
+.swiper {
+  max-width: 900px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.407);
+  border: 2px solid blue;
+}
+
+
+.swiper-button-next,.swiper-button-prev{
+  color: red;
+  
+}
+.swiper-pagination-bullet{
+  background-color: red;
 }
