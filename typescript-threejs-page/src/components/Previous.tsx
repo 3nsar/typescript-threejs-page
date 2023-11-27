@@ -1,7 +1,7 @@
 import React from 'react'
-import nft from "../images/nftmonkey.jpg"
-import nft2 from "../images/white-nft.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import nft from '../images/nftmonkey.jpg';
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -14,8 +14,9 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 const Previous = () => {
   return (
-    <>
-        <Swiper
+
+         <>
+      <Swiper
         effect={'coverflow'}
         loop={true}
         grabCursor={true}
@@ -42,7 +43,7 @@ const Previous = () => {
           <p>NEO</p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={nft2} alt="Slide 3" />
+          <img src={nft} alt="Slide 3" />
           <p>NEO</p>
         </SwiperSlide>
         <SwiperSlide>
@@ -63,6 +64,7 @@ const Previous = () => {
         </SwiperSlide>
       </Swiper>
     </>
+
   )
 }
 
